@@ -52,6 +52,10 @@ h1 {
     padding: 10px 135px;
 }
 
+.bayan-content img {
+    width: 100%;
+}
+
 .bayan-input {
     width: 0;
     height: 0;
