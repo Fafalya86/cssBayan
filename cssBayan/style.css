@@ -12,7 +12,6 @@ body {
 h1 {
     text-align: center;
     font-size: 3rem;
-    margin-bottom: 1.5rem;
 }
 
 .bayan {
@@ -36,7 +35,7 @@ h1 {
     color: black;
     cursor: pointer;
     transition: color 0.3s ease;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
@@ -101,23 +100,33 @@ h1 {
     display: block;
     max-height: 1000px;
     opacity: 1;
-    padding: 10px 135px;
+    padding: 0.8rem 8rem;
     cursor: pointer;
     transition: all 1s ease-in-out;
 }
 
 @media (max-width: 321px) {
+    .wrapper {
+    max-width: 300px;
+    }
+
     .bayan {
+        display: flex;
+        flex-direction: column;
         max-width: 300px;
         margin: auto;   
     }
     
     .bayan-content img{
-        margin-left: -52px;
-        width: 500%;
+        margin-left: -84px;
+        width:200px;
     }
 
     .bayan-title {
         font-size: 19px;
+    }
+
+    .bayan-item label i {
+        margin-left: 250px;
     }
 }
